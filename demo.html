@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de démonstration - Image Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .image-section {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .image-section h3 {
+            margin-bottom: 15px;
+            color: #495057;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 5px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .bg-image {
+            width: 200px;
+            height: 150px;
+            background-image: url('https://picsum.photos/400/300?random=10');
+            background-size: cover;
+            background-position: center;
+            border-radius: 5px;
+            margin: 10px auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .instructions {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .instructions h2 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        .instructions ol {
+            color: #424242;
+        }
+        .instructions li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🖼️ Page de démonstration - Image Downloader</h1>
+        
+        <div class="gallery">
+            <div class="image-section">
+                <h3>Images 300x200</h3>
+                <img src="https://picsum.photos/300/200?random=1" alt="Image aléatoire 1">
+                <img src="https://picsum.photos/300/200?random=2" alt="Image aléatoire 2">
+                <img src="https://picsum.photos/300/200?random=3" alt="Image aléatoire 3">
+            </div>
+            
+            <div class="image-section">
+                <h3>Images 400x300</h3>
+                <img src="https://picsum.photos/400/300?random=4" alt="Image aléatoire 4">
+                <img src="https://picsum.photos/400/300?random=5" alt="Image aléatoire 5">
+            </div>
+            
+            <div class="image-section">
+                <h3>Images 250x250</h3>
+                <img src="https://picsum.photos/250/250?random=6" alt="Image carrée 1">
+                <img src="https://picsum.photos/250/250?random=7" alt="Image carrée 2">
+                <img src="https://picsum.photos/250/250?random=8" alt="Image carrée 3">
+                <img src="https://picsum.photos/250/250?random=9" alt="Image carrée 4">
+            </div>
+            
+            <div class="image-section">
+                <h3>Image de fond CSS</h3>
+                <div class="bg-image"></div>
+                <p>Cette div a une image de fond CSS qui sera détectée par l'extension.</p>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h2>📋 Instructions pour tester l'extension</h2>
+            <ol>
+                <li>Cliquez sur l'icône de l'extension Image Downloader dans la barre d'outils de Chrome</li>
+                <li>Cliquez sur "Ouvrir le visualiseur" pour voir toutes les images détectées</li>
+                <li>Testez le <strong>mode sombre</strong> en cliquant sur le bouton 🌙 en haut à droite</li>
+                <li>Testez la fonctionnalité de <strong>pliage/dépliage</strong> en cliquant sur les en-têtes des groupes d'images</li>
+                <li>Sélectionnez des images individuellement ou par groupe</li>
+                <li>Téléchargez les images sélectionnées en ZIP ou individuellement</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
