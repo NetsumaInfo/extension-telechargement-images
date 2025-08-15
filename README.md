@@ -1,5 +1,7 @@
 # Image Downloader - Extension Chrome
 
+🔗 **Dépôt GitHub**: https://github.com/NetsumaInfo/extension-telechargement-images
+
 Une extension Chrome puissante pour détecter, visualiser et télécharger toutes les images d'une page web avec des options avancées de tri et de format.
 
 ## 🚀 Fonctionnalités
@@ -28,10 +30,18 @@ Une extension Chrome puissante pour détecter, visualiser et télécharger toute
 
 ## 📦 Installation
 
-### Installation en mode développeur
+### Méthode 1: Cloner depuis GitHub (Recommandé)
+
+1. **Cloner le dépôt**
+   ```bash
+   git clone https://github.com/NetsumaInfo/extension-telechargement-images.git
+   cd extension-telechargement-images
+   ```
+
+### Méthode 2: Téléchargement direct
 
 1. **Télécharger l'extension**
-   - Clonez ou téléchargez ce dossier sur votre ordinateur
+   - Téléchargez le ZIP depuis GitHub ou clonez ce dépôt sur votre ordinateur
 
 2. **Ouvrir Chrome et accéder aux extensions**
    - Ouvrez Google Chrome
@@ -133,7 +143,16 @@ Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
 
 ## 🤝 Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou soumettre une pull request.
+Les contributions sont les bienvenues ! 
+
+1. **Fork** le projet sur GitHub
+2. **Clonez** votre fork localement
+3. **Créez** une branche pour votre fonctionnalité (`git checkout -b feature/nouvelle-fonctionnalite`)
+4. **Commitez** vos changements (`git commit -m 'Ajout d'une nouvelle fonctionnalité'`)
+5. **Poussez** vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
+6. **Ouvrez** une Pull Request
+
+N'hésitez pas à ouvrir une issue pour signaler des bugs ou proposer des améliorations.
 
 ---
 
